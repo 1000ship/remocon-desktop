@@ -32,6 +32,8 @@ def guiProcess ():
                     str = " ".join(args[1:])
                 elif args[0] == "h":
                     gui.hotkey(*tuple(args[1:]))
+                elif args[0] == "ss":
+                    gui.screenshot("screenshot.png")
                 else:
                     print("What is '{}'".format(query))
             # excute
@@ -43,7 +45,8 @@ def guiProcess ():
                 mouseClick = False
             if str != None:
                 gui.typewrite(str)
-        except:
+        except Exception as e:
+            print(e)
             continue
 threading.Thread(target=guiProcess).start()
 
@@ -53,7 +56,6 @@ async def accept(websocket, path):
     while True:
         try:
             data = await websocket.recv();
-            # print("receive : " + data);
             stackIn += [data]
         except:
             print("Diconnected... Find another connection")
