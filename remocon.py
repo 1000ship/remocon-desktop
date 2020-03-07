@@ -3,9 +3,16 @@ import websockets;
 import pyautogui as gui
 import threading
 import time
+import socket
 
 stackIn = []
 stackOut = []
+
+
+SOCKET_IP = socket.gethostbyname_ex( socket.gethostname() )[-1]
+SOCKET_PORT = 2362
+print( "IP : {}".format( SOCKET_IP ) )
+print( "Port : {}".format( SOCKET_PORT ) )
 
 def guiProcess ():
     global stackIn, stackOut
@@ -14,7 +21,6 @@ def guiProcess ():
             if not stackOut:
                 while stackIn:
                     stackOut.append( stackIn.pop() )
-
             # read
             mouseBias = [0, 0]
             mouseClick = False
@@ -62,6 +68,6 @@ async def accept(websocket, path):
             break
 
 print("Try connect")
-start_server = websockets.serve(accept, "0.0.0.0", 2362);
+start_server = websockets.serve(accept, "0.0.0.0", SOCKET_PORT);
 asyncio.get_event_loop().run_until_complete(start_server);
 asyncio.get_event_loop().run_forever();
