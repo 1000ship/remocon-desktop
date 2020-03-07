@@ -8,15 +8,14 @@ import qrcode
 
 stackIn = []
 stackOut = []
-
-SOCKET_IP = socket.gethostbyname_ex( socket.gethostname() )[-1][-1]
-SOCKET_PORT = 2362
-webClientURL = "http://1000sh.iptime.org:8000/list/HDD1/1000sh-disk/_page/remocon?ip={}&port={}".format( SOCKET_IP, SOCKET_PORT );
-img = qrcode.make(webClientURL)
-img.save("qrcode.png")
-
-print( "IP : {}".format( SOCKET_IP ) )
-print( "Port : {}".format( SOCKET_PORT ) )
+#
+# SOCKET_IP = socket.gethostbyname_ex( socket.gethostname() )[-1][-1]
+# SOCKET_PORT = 2362
+# webClientURL = "http://1000sh.iptime.org:8000/list/HDD1/1000sh-disk/_page/remocon?ip={}&port={}".format( SOCKET_IP, SOCKET_PORT );
+# img = qrcode.make(webClientURL)
+# img.save("qrcode.png")
+# print( "IP : {}".format( SOCKET_IP ) )
+# print( "Port : {}".format( SOCKET_PORT ) )
 
 def guiProcess ():
     global stackIn, stackOut
@@ -58,7 +57,6 @@ def guiProcess ():
         except Exception as e:
             print(e)
             continue
-threading.Thread(target=guiProcess).start()
 
 async def accept(websocket, path):
     global stackIn
@@ -71,8 +69,12 @@ async def accept(websocket, path):
             print("Diconnected... Find another connection")
             break
 
-print("Client: ", webClientURL)
-print("Try connect")
-start_server = websockets.serve(accept, "0.0.0.0", SOCKET_PORT);
-asyncio.get_event_loop().run_until_complete(start_server);
-asyncio.get_event_loop().run_forever();
+def run ( port ):
+    threading.Thread(target=guiProcess).start()
+    start_server = websockets.serve(accept, "0.0.0.0", port);
+    asyncio.get_event_loop().run_until_complete(start_server);
+    asyncio.get_event_loop().run_forever();
+    print("Try connect")
+
+if __name__ == "__main__":
+    run( port=2362 )

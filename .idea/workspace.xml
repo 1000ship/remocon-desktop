@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6fe014-0c51-4a80-be1a-7663341c9440" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/remocon.py" beforeDir="false" afterPath="$PROJECT_DIR$/remocon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,29 @@
       <recent name="$PROJECT_DIR$/for_test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.remocon">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Remocon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mysql_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Remocon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.remocon" />
         <item itemvalue="Python.mysql_test" />
         <item itemvalue="Python.receiver" />
@@ -161,7 +183,7 @@
       <updated>1583388495839</updated>
       <workItem from="1583388501410" duration="8326000" />
       <workItem from="1583473764033" duration="3860000" />
-      <workItem from="1583560913949" duration="2844000" />
+      <workItem from="1583560913949" duration="5532000" />
     </task>
     <servers />
   </component>
@@ -169,22 +191,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="699" height="230" key="GridCell.Tab.0.bottom" timestamp="1583567759763">
+    <state width="568" height="230" key="GridCell.Tab.0.bottom" timestamp="1583570723455">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583567759763" />
-    <state width="699" height="230" key="GridCell.Tab.0.center" timestamp="1583567759762">
+    <state width="568" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583570723455" />
+    <state width="568" height="230" key="GridCell.Tab.0.center" timestamp="1583570723454">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583567759762" />
-    <state width="699" height="230" key="GridCell.Tab.0.left" timestamp="1583567759762">
+    <state width="568" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583570723454" />
+    <state width="568" height="230" key="GridCell.Tab.0.left" timestamp="1583570723454">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583567759762" />
-    <state width="699" height="230" key="GridCell.Tab.0.right" timestamp="1583567759763">
+    <state width="568" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583570723454" />
+    <state width="568" height="230" key="GridCell.Tab.0.right" timestamp="1583570723455">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583567759763" />
+    <state width="568" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583570723455" />
     <state width="699" height="285" key="GridCell.Tab.1.bottom" timestamp="1583561785942">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -201,10 +223,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="699" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583561785942" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1583567500427">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1583568737524">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583567500427" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583568737524" />
     <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583560974346">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -216,9 +238,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Remocon$receiver.coverage" NAME="receiver Coverage Results" MODIFIED="1583390367586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Remocon$main.coverage" NAME="main Coverage Results" MODIFIED="1583570723445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$test.coverage" NAME="sender Coverage Results" MODIFIED="1583390270252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$websocket.coverage" NAME="remocon Coverage Results" MODIFIED="1583481368169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Remocon$remocon.coverage" NAME="remocon Coverage Results" MODIFIED="1583567759752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Remocon$remocon.coverage" NAME="remocon Coverage Results" MODIFIED="1583567963173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$mysql_test.coverage" NAME="mysql_test Coverage Results" MODIFIED="1583430717950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
