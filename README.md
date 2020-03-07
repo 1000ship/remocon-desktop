@@ -7,5 +7,5 @@ Python and Javascript use websocket
 - remocon.py : now, testing
 
 ## info
-- Need Lib : asyncio, websockets, pyautogui, opencv-python
+- Need Lib : asyncio, websockets, pyautogui, opencv-python, qrcode
 - 'opencv-python' is optional, but it will enhance program speed
