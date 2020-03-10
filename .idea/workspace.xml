@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6fe014-0c51-4a80-be1a-7663341c9440" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/app-icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remocon.py" beforeDir="false" afterPath="$PROJECT_DIR$/remocon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,6 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/for_test" />
     </key>
   </component>
@@ -183,7 +187,10 @@
       <updated>1583388495839</updated>
       <workItem from="1583388501410" duration="8326000" />
       <workItem from="1583473764033" duration="3860000" />
-      <workItem from="1583560913949" duration="5532000" />
+      <workItem from="1583560913949" duration="6504000" />
+      <workItem from="1583645266572" duration="546000" />
+      <workItem from="1583685897374" duration="263000" />
+      <workItem from="1583823155479" duration="195000" />
     </task>
     <servers />
   </component>
@@ -191,46 +198,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="568" height="230" key="GridCell.Tab.0.bottom" timestamp="1583570723455">
+    <state width="568" height="230" key="GridCell.Tab.0.bottom" timestamp="1583647527104">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="568" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583570723455" />
-    <state width="568" height="230" key="GridCell.Tab.0.center" timestamp="1583570723454">
+    <state width="568" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583647527104" />
+    <state width="568" height="230" key="GridCell.Tab.0.center" timestamp="1583647527102">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="568" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583570723454" />
-    <state width="568" height="230" key="GridCell.Tab.0.left" timestamp="1583570723454">
+    <state width="568" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583647527102" />
+    <state width="568" height="230" key="GridCell.Tab.0.left" timestamp="1583647527102">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="568" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583570723454" />
-    <state width="568" height="230" key="GridCell.Tab.0.right" timestamp="1583570723455">
+    <state width="568" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583647527102" />
+    <state width="568" height="230" key="GridCell.Tab.0.right" timestamp="1583647527103">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="568" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583570723455" />
-    <state width="699" height="285" key="GridCell.Tab.1.bottom" timestamp="1583561785942">
+    <state width="568" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583647527103" />
+    <state width="699" height="285" key="GridCell.Tab.1.bottom" timestamp="1583571602021">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583561785942" />
-    <state width="699" height="285" key="GridCell.Tab.1.center" timestamp="1583561785941">
+    <state width="699" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583571602021" />
+    <state width="699" height="285" key="GridCell.Tab.1.center" timestamp="1583571602021">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1583561785941" />
-    <state width="699" height="285" key="GridCell.Tab.1.left" timestamp="1583561785941">
+    <state width="699" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1583571602021" />
+    <state width="699" height="285" key="GridCell.Tab.1.left" timestamp="1583571602020">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1583561785941" />
-    <state width="699" height="285" key="GridCell.Tab.1.right" timestamp="1583561785942">
+    <state width="699" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1583571602020" />
+    <state width="699" height="285" key="GridCell.Tab.1.right" timestamp="1583571602021">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="699" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583561785942" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1583568737524">
+    <state width="699" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1583571602021" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1583823229839">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583568737524" />
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583560974346">
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1583823229839" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1583686182698">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1583560974346" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1583686182698" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583479809999">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -238,7 +245,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Remocon$receiver.coverage" NAME="receiver Coverage Results" MODIFIED="1583390367586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Remocon$main.coverage" NAME="main Coverage Results" MODIFIED="1583570723445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Remocon$main.coverage" NAME="main Coverage Results" MODIFIED="1583645276291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$test.coverage" NAME="sender Coverage Results" MODIFIED="1583390270252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$websocket.coverage" NAME="remocon Coverage Results" MODIFIED="1583481368169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Remocon$remocon.coverage" NAME="remocon Coverage Results" MODIFIED="1583567963173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
