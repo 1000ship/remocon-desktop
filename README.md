@@ -9,3 +9,6 @@ Python and Javascript use websocket
 ## info
 - Need Lib : asyncio, websockets, pyautogui, opencv-python, qrcode
 - 'opencv-python' is optional, but it will enhance program speed
+
+## PyInstaller Build
+> sudo pyinstaller --icon appicon.ico -y --onedir --osx-bundle-identifier me.1000ship.remocon --hidden-import=tkinter --hidden-import=pyautogui --hidden-import=websockets --hidden-import=qrcode --hidden-import=asyncio --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' main.py
