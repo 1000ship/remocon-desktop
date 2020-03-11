@@ -55,6 +55,7 @@ async def accept(websocket, path):
         try:
             data = await websocket.recv();
             stackIn += [data]
+            print("Received : {}".format(data))
         except:
             print("Diconnected... Find another connection")
             break
