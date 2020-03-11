@@ -3,21 +3,11 @@ import websockets;
 import pyautogui as gui
 import threading
 import time
-import socket
-import qrcode
 
 stackIn = []
 stackOut = []
-#
-# SOCKET_IP = socket.gethostbyname_ex( socket.gethostname() )[-1][-1]
-# SOCKET_PORT = 2362
-# webClientURL = "http://1000sh.iptime.org:8000/list/HDD1/1000sh-disk/_page/remocon?ip={}&port={}".format( SOCKET_IP, SOCKET_PORT );
-# img = qrcode.make(webClientURL)
-# img.save("qrcode.png")
-# print( "IP : {}".format( SOCKET_IP ) )
-# print( "Port : {}".format( SOCKET_PORT ) )
 
-def guiProcess ():
+def guiThread ():
     global stackIn, stackOut
     while True:
         try:
@@ -69,11 +59,16 @@ async def accept(websocket, path):
             print("Diconnected... Find another connection")
             break
 
+def socketThread (port, event_loop):
+    asyncio.set_event_loop( event_loop )
+    wsServer = websockets.serve(accept, "0.0.0.0", port);
+    event_loop.run_until_complete(wsServer);
+    event_loop.run_forever();
+
 def run ( port ):
-    threading.Thread(target=guiProcess).start()
-    start_server = websockets.serve(accept, "0.0.0.0", port);
-    asyncio.get_event_loop().run_until_complete(start_server);
-    asyncio.get_event_loop().run_forever();
+    event_loop = asyncio.get_event_loop()
+    threading.Thread(target=guiThread).start()
+    threading.Thread(target=socketThread, args=[port, event_loop]).start()
     print("Try connect")
 
 if __name__ == "__main__":
