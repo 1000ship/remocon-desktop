@@ -3,3 +3,6 @@ build
 dist
 *.spec
 venv
+.idea
+__pycache__
+.DS_Store
