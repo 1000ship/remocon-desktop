@@ -1,11 +1,14 @@
 
 # 🎮 Remocon for Desktop
  You should use with 'https://github.com/1000ship/remocon-web'
-Python and Javascript use websocket
+ 
+ Python and Javascript use websocket
 
 ![](_readme/testing.gif)
 
-My blog post(Korean) => https://blog.naver.com/cjstjdgur123/221843365322  
+My blog post(Korean)
+
+=> https://blog.naver.com/cjstjdgur123/221843365322  
 
 ## 📂 File set
 - main.py : this is main program, managing gui
