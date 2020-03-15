@@ -3,6 +3,8 @@
 you should use with 'https://github.com/1000ship/remocon-web'
 Python and Javascript use websocket
 
+![](_readme/testing.gif)
+
 ## File set
 - main.py : this is main program, managing gui
 - remocon.py : about web-socket server and use pyautogui
