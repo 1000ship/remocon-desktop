@@ -31,6 +31,10 @@ def guiThread ():
                     str = " ".join(args[1:])
                 elif args[0] == "h":
                     gui.hotkey(*tuple(args[1:]))
+                elif args[0] == "sv":
+                    gui.vscroll( int(args[1]) )
+                elif args[0] == "sh":
+                    gui.hscroll( int(args[1]) )
                 elif args[0] == "ss":
                     gui.screenshot("screenshot.png")
                 else:
